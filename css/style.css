@@ -1,0 +1,199 @@
+/*
+	Linear by TEMPLATED
+    templated.co @templatedco
+    Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+*/
+
+/*********************************************************************************/
+/* Basic                                                                         */
+/*********************************************************************************/
+body {
+	font-family: 'Roboto', sans-serif;
+	background: #161616; /* Couleur de fond */
+	color: #777777; /* Couleur de police */
+	font-size:15px; /* Taille de police */
+	font-weight: 300;
+	line-height: 26px;
+}
+h1, h2, h3 {
+	font-weight: 300;
+}
+h1 {
+	font-size: 103px;
+	line-height: 103px;
+}
+h2 {
+	font-size: 33px;
+	letter-spacing: -1px;
+}
+a {
+	text-decoration: none;
+	color: #80ba8e;
+}
+a:hover {
+	text-decoration: underline;
+}
+p {
+	margin-bottom: 18px;
+}
+strong {
+	font-weight: 500;
+	color: black;
+}
+hr {
+	border:0;
+	border-bottom: 1px solid #dddddd;
+}
+.icon {
+	font-size: 60px;
+	color: #bbbbbb;
+}
+
+/* Images */
+
+
+						
+/* Buttons */
+	
+.button {
+	display: inline-block;
+	-moz-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+	-webkit-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+	-o-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+	-ms-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+	transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+}	
+		
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+header {
+	background-attachment: fixed;
+	background-size: cover;
+
+	padding: 235px 0 176px 0;
+	background-image: url('../images/header.jpg');
+	background-repeat: no-repeat;
+	background-position: bottom center;
+
+	text-align: center;
+}
+
+/*********************************************************************************/
+/* Nav                                                                           */
+/*********************************************************************************/
+
+#nav-wrapper {
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-size: 0;
+
+	background: rgba(0,0,0,0.1);
+	width: 100%;
+}
+nav ul li  {
+	display: inline-block;
+	border-right: 1px solid rgba(255,255,255,0.2);
+}
+
+nav ul li:last-child {
+	padding-right: 0;
+	border-right: none;
+}
+
+nav ul li a {
+	display: block;
+	padding: 25px;
+	letter-spacing: 1px;
+	font-size: 16px;
+	color: #fff;
+	text-transform: uppercase;
+}
+nav ul li a:hover {
+	text-decoration: none;
+	background: rgba(255,255,255,0.2);
+}
+.active a {
+	font-weight: 500;
+}
+
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+#logo h1 a {
+	color: #ffffff;
+	text-decoration: none;
+}
+.tag {
+	font-size: 21px;
+	color: #fff;
+}
+	
+/*********************************************************************************/
+/* Featured                                                                      */
+/*********************************************************************************/
+#featured {
+	background: #f2f2f2;
+	text-align: center;
+	padding: 90px 0;
+}	
+#featured h2 {
+	margin-bottom: 50px;
+	font-size: 50px;
+}
+#featured h3 {
+	padding: 36px 0;
+	font-size: 24px;
+}
+#featured p {
+	font-size: 18px;
+	line-height: 36px;
+}
+
+
+/*********************************************************************************/
+/* Main                                                                          */
+/*********************************************************************************/
+
+
+
+/*********************************************************************************/
+/* Tweet                                                                         */
+/*********************************************************************************/
+	
+#tweet {
+	background-attachment: fixed;
+	background-size: cover;
+}	
+
+/*********************************************************************************/
+/* Footer                                                                        */
+/*********************************************************************************/
+
+
+
+footer .byline {
+	display: block;
+}
+/*********************************************************************************/
+/* Social Icon Styles                                                            */
+/*********************************************************************************/
+
+ul.contact li span {
+	display: none;
+}
+
+ul.contact li a {
+	-moz-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+	-webkit-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+	-o-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+	-ms-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+	transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+}
+
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
